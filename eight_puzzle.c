@@ -198,7 +198,7 @@ int main()
 		
 		do /*to get the correct input from user*/
 		{
-			printf("\n\nPlease enter the coordinates: ");
+			printf("\n\nPlease enter the coordinates as index of array (e.g 0 0): ");
 			scanf("%d %d", &x, &y);
 			printf("\n\nPlease enter the direction as a character(r, l, u, d): ");
 			scanf(" %c", &input_c);
